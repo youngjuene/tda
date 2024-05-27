@@ -1,0 +1,5 @@
+numpy
+matplotlib
+osmnx
+scikit-learn
+scikit-tda
