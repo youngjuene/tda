@@ -16,8 +16,5 @@ COPY requirements.txt .
 # Install the required libraries
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the code file to the working directory
-COPY tda_urban_morphology.py .
-
-# Run the code when the container starts
-CMD ["python", "tda_urban_morphology.py"]
+# Set the entrypoint to the Python interpreter
+ENTRYPOINT ["python"]
