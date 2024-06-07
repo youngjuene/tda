@@ -4,5 +4,5 @@
 conda create -n eum python=3.10 -y
 conda activate eum
 
-pip install geopandas pydeck osmnx giotto-tda jupyterlab matplotlib scikit-learn scikit-tda persim
+pip install -r requirements.txt
 ```

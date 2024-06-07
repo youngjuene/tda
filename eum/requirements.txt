@@ -1,0 +1,10 @@
+osmnx
+pydeck
+geopandas 
+jupyterlab
+matplotlib
+scikit-learn
+scikit-tda
+giotto-tda
+persim
+ripser
